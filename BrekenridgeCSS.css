@@ -1,0 +1,213 @@
+/*
+ 	float:     	Brekenridge CSS
+	Date:		6/15/2017
+	Author:		msheeler
+*/
+
+body 
+{
+	position: relative;	
+    background-color: rgba(224,215,180,0.5);
+}
+
+.wrapper
+{
+	/*background-color: purple;*/
+	height: 100%;
+	width: 100%;	
+	min-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wrapper img
+{
+	width: 78%;
+	min-width: 500px;
+	display: block;
+	margin: auto;
+}
+
+.banner
+{
+	/*background-color: blue;*/
+	height: 75px;
+	margin: 1%;
+	border-bottom: rgba(153,221,185,0.5) ridge;
+}
+
+.banner img
+{	
+	height: 125px;
+	width: auto;
+	float: right; 
+}
+
+.navbar
+{
+	/*background-color: lightpink;*/
+	height: 20px;
+	margin: 2% 5% 2% 5%;
+	text-align: center;
+}
+
+.navbar li
+{
+	list-style-type: none;
+	position: relative;
+	display: inline;	
+	text-align: center;
+	padding: 5%;	
+}
+
+.leftfield
+{
+	background-color: rgba(247,148,148,0.5);	 
+	float: left;
+	padding: 2%;
+	text-align: center;
+	width: 17%;
+	min-width: 170px;
+	min-height: 200px;
+	margin: 2% 0% 2% 11%;
+	padding: 2%;
+}
+
+.rightfield
+{
+	float: right;
+	width: 47%;
+	min-width: 300px;
+	min-height: 200px;
+	margin: 2% 11% 2% 0%;
+	background-color:rgba(153,221,185,0.5);
+	background-size: 100%;
+	padding: 2%;
+}
+
+.rightfield li
+{
+	list-style-position: inside;
+	position: relative;	
+	padding-left: 20px;
+}
+
+.centerfield
+{
+	background-color: rgba(150,150,150,0.3);
+	width: 800px;
+	height: 500px;
+	overflow: auto;
+	margin: auto;
+}
+
+.footer
+{
+	clear: right;
+	margin: 5%;
+	background-color: rosybrown;
+	height: 20px;
+	min-width: 400px;
+}
+
+p, li
+{
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 18px;
+}
+
+h1
+{
+	text-align: right;
+}
+
+h3
+{
+	text-align: Center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+textarea
+{
+	resize: none;
+}
+
+a:link, a:visited, a:active
+{
+	font-family: Arial, Helvetica, Sans-serif;
+	color: black;
+	text-decoration: none;
+}
+
+.button
+{
+	background-color: lightgray;
+	border-radius: 2px;	
+	border: 2px solid gray;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+    padding: 2px  0px 2px 0px;
+	margin: 4px 0px 4px 0px;
+}
+
+.dot 
+{
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active 
+{
+ 	 background-color: #717171;
+}
+
+.fade
+{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+.mySlides 
+{
+	display:none
+}
+
+.mySlides img
+{
+	width: 80%;
+	min-width: 500px;
+	display: block;
+	margin: auto;
+}
+
+
+.slidefield
+{
+	/*background-color: lightpink;*/
+	height: 300px;
+	margin: 20px;
+	text-align: center;
+}
+
+@-webkit-keyframes fade
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade 
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
